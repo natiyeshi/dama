@@ -1,9 +1,9 @@
 "use client";
 import logo from "@/../assets/logo/logo-1.svg";
+import MobileNav from "@/app/(home)/_components/MobileNav";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Nav() {
   const [displayElement, setDisplayElement] = useState(false);
@@ -25,7 +25,6 @@ export default function Nav() {
   };
   useEffect(() => {
     const handleScroll = () => {
-      console.log("AAAA", window.scrollY);
       getCurrSection(window.scrollY);
       if (window.scrollY > 300) {
         setDisplayElement(true);
@@ -40,7 +39,7 @@ export default function Nav() {
     <div
       className={`${
         displayElement && "from-bottom-slide   bg-background top-2 duration-200"
-      }  w-[70%] flex place-items-center max-lg:w-full sticky bg-background px-4 mx-auto rounded-xl py-2 z-10`}
+      }  w-[70%] flex place-items-center max-lg:w-full max-md:justify-between sticky bg-background px-4 mx-auto rounded-xl py-2 z-10`}
     >
       <Link href="/#">
         <Image src={logo} className="w-[30px]  py-2" alt="logo" />
@@ -87,7 +86,7 @@ export default function Nav() {
           contact Us
         </Link>
       </div>
-      <GiHamburgerMenu className="text-white my-auto md:hidden ml-auto" />
+      <MobileNav curr={curr} />
     </div>
   );
 }

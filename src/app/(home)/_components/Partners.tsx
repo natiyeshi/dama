@@ -26,7 +26,7 @@ const Partners = () => {
       <div className="resp_comp font-black  mt-6">
         Some of <span className="text-primary">our Partners</span>
       </div>
-      <div className="overflow-hidden mt-16" ref={emblaRef}>
+      <div className="overflow-hidden mt-16 cursor-grab " ref={emblaRef}>
         <div className="flex gap-10">
           {partners.map((img, ind) => (
             <div
