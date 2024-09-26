@@ -29,7 +29,7 @@ export default function ProjectDetail({
   ]);
   return (
     <Drawer open={isOpen}>
-      <DrawerContent className="h-[65vh] ">
+      <DrawerContent className="h-[75vh] pb-12 ">
         <div className="w-full overflow-auto max-w-[1500px] 2xl:mx-auto">
           <DrawerHeader>
             <DrawerTitle className="capitalize">{data.name}</DrawerTitle>
