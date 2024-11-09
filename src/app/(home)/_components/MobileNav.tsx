@@ -14,9 +14,9 @@ export default function MobileNav({ curr }: { curr: string }) {
       <DrawerTrigger>
         <GiHamburgerMenu className="text-white md:hidden  my-auto cursor-pointer ml-auto" />
       </DrawerTrigger>
-      <DrawerContent className="h-[15vh] ">
+      <DrawerContent className="h-[45vh] ">
         <div className="w-full overflow-auto m-auto text-sm max-w-[1500px] 2xl:mx-auto">
-          <div className="flex gap-5 justify-center  capitalize items-center ml-auto text-white text-sm">
+          <div className="flex flex-col gap-5   capitalize items-center ml-auto text-white text-sm">
             <Link
               href="/services"
               className={`hover:text-primary ${

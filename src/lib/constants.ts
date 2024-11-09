@@ -1,4 +1,3 @@
-
 import insafeImg1 from "@/../assets/portfolio/insafe1.png";
 import insafeImg2 from "@/../assets/portfolio/insafe2.png";
 import insafeImg3 from "@/../assets/portfolio/insafe3.png";
@@ -34,84 +33,108 @@ import yosaImg1 from "@/../assets/portfolio/yosa1.png";
 import yosaImg2 from "@/../assets/portfolio/yosa2.png";
 import yosaImg3 from "@/../assets/portfolio/yosa3.png";
 
+import rg1 from "@/../assets/portfolio/rg1.png";
+import rg2 from "@/../assets/portfolio/rg2.png";
+import rg3 from "@/../assets/portfolio/rg3.png";
+
 import { IPortfolio } from "@/app/(home)/_components/Portfolio";
 
-const brandings = ["flyers","brochers","stamp","company Profile"]
-
+const Full_Website = [
+  "Website Design",
+  "Search Engine Optimization",
+  "Hosting",
+  "Admin Dashboard",
+];
+const semi_Website = [
+  "Website Design",
+  "Search Engine Optimization",
+  "Hosting",
+];
+const simple_website = ["Website Design"];
+const brandings = [
+  "Logo Design",
+  "Brand Strategy Documents",
+  "Visual Identity",
+  "Marketing Collaterals",
+  "Digital Assests",
+  "Brand Guidelines",
+  "Packaging Design",
+  "Signage and Display",
+];
 export const initialData: IPortfolio[] = [
-   
-    {
-      name: "Shengo",
-      link: "shengo.vercel.app",
-      services: ["Website Design"],
-      type: ["website"],
-      images: [shengoImg1, shengoImg2, shengoImg3],
-      logo: false
-    },
-    {
-        name: "Lina",
-        services: brandings,
-        type: ["branding"],
-        images: [linaImg1, linaImg2, linaImg3],
-        logo: false
+  {
+    name: "royal",
+    services: brandings,
+    type: ["branding"],
+    images: [royalImg1, royalImg2, royalImg3],
+    logo: true,
+  },
 
-      },
-      {
-        name: "midstone",
-        services: brandings,
-        type: ["branding"],
-        images: [midstoneImg1, midstoneImg2, midstoneImg3],
-        logo: true
-        
-      },
-      {
-        name: "onektn",
-        services: brandings,
-        type: ["branding"],
-        images: [onektnImg1, onektnImg2, onektnImg3],
-        logo: true
-        
-      },
-      {
-        name: "royal",
-        services: brandings,
-        type: ["branding"],
-        images: [royalImg1, royalImg2, royalImg3],
-        logo: true
-        
-      },
-      {
-        name: "Insafe Safety Solutions",
-        link: "insafesafety.org",
-        services: ["Website Design", "Branding Service"],
-        type: ["website", "branding"],
-        images: [insafeImg1, insafeImg2, insafeImg3],
-        logo: true
-        
-      },
-      {
-        name: "techno",
-        services: brandings,
-        type: ["branding"],
-        images: [technoImg1, technoImg2, technoImg3],
-        logo: true
-        
-      },
-      {
-        name: "universe",
-        services: brandings,
-        type: ["branding"],
-        images: [universeImg1, universeImg2, universeImg3],
-        logo: true
-        
-      },
-    {
-        name: "yosa",
-        services: brandings,
-        type: ["branding"],
-        images: [yosaImg1, yosaImg2, yosaImg3],
-        logo: true,
+  {
+    name: "Rg Business",
+    link: "rg-business.vercel.app",
+    services: Full_Website,
+    type: ["website"],
+    images: [rg1, rg2, rg3],
+    logo: true,
+  },
+  {
+    name: "Lina",
+    services: brandings,
+    type: ["branding"],
+    images: [linaImg1, linaImg2, linaImg3],
+    logo: false,
+  },
+  {
+    name: "midstone",
+    services: brandings,
+    type: ["branding"],
+    images: [midstoneImg1, midstoneImg2, midstoneImg3],
+    logo: true,
+  },
+  {
+    name: "onektn",
+    services: brandings,
+    type: ["branding"],
+    images: [onektnImg1, onektnImg2, onektnImg3],
+    logo: true,
+  },
 
-      },
-  ];
-
+  {
+    name: "Insafe Safety Solutions",
+    link: "insafesafety.org",
+    services: Full_Website,
+    type: ["website", "branding"],
+    images: [insafeImg1, insafeImg2, insafeImg3],
+    logo: true,
+  },
+  {
+    name: "techno",
+    services: brandings,
+    type: ["branding"],
+    images: [technoImg1, technoImg2, technoImg3],
+    logo: true,
+  },
+  {
+    name: "universe",
+    services: brandings,
+    type: ["branding"],
+    images: [universeImg1, universeImg2, universeImg3],
+    logo: true,
+  },
+  {
+    name: "yosa",
+    services: brandings,
+    type: ["branding"],
+    images: [yosaImg1, yosaImg2, yosaImg3],
+    logo: true,
+  },
+  {
+    name: "Shengo",
+    link: "shengo.vercel.app",
+    services: simple_website,
+    type: ["website"],
+    images: [shengoImg1, shengoImg2, shengoImg3],
+    logo: true,
+  },
+];

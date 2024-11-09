@@ -48,7 +48,6 @@ export const servicesData: IService[] = [
       "Unique Logo Design",
       "Flyer design",
       "Stamp Design",
-      "Secure and Reliable",
       "Brochure Design",
       "Company Profile",
       "Business Card Design",

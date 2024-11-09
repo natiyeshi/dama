@@ -58,12 +58,18 @@ const Work = ({ data }: { data: IPortfolio }) => {
         <ProjectDetail data={data} isOpen={isOpen} />
 
         <div className="flex flex-col gap-2 mt-6 text-dim">
-          {data.services.map((serv) => (
+          {data.services.slice(0, 5).map((serv) => (
             <div key={serv} className="flex gap-2 text-sm place-items-center">
               <FaCheck className="text-primary" />
               <div>{serv}</div>
             </div>
           ))}
+          {data.services.length > 5 && (
+            <div className="flex gap-2 text-sm place-items-center">
+              <FaCheck className="text-primary" />
+              <div>{"..."}</div>
+            </div>
+          )}
         </div>
       </div>
     </div>

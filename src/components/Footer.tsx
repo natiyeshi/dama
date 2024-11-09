@@ -39,7 +39,7 @@ const Footer = () => {
         <div>+25105398793</div>
       </a>
       <div className="mt-6 border-t border-gray-700 w-full text-center py-5 mx-auto text-sm text-dim">
-        Copyright © 2024 Insafe Safety Solutions PLC
+        Copyright © 2024 Dama Solutions 
       </div>
     </div>
   );

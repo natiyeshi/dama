@@ -9,13 +9,13 @@ export default function Nav() {
   const [displayElement, setDisplayElement] = useState(false);
   const [curr, setCurr] = useState("");
   const getCurrSection = (num: number) => {
-    if (num > 3500) {
+    if (num > 4500) {
       setCurr("footer");
-    } else if (num > 3400) {
+    } else if (num > 4000) {
       setCurr("partners");
-    } else if (num > 2700) {
+    } else if (num > 3300) {
       setCurr("about");
-    } else if (num > 1550) {
+    } else if (num > 1750) {
       setCurr("portfolio");
     } else if (num > 450) {
       setCurr("service");
@@ -26,6 +26,7 @@ export default function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       getCurrSection(window.scrollY);
+      console.log(window.scrollY);
       if (window.scrollY > 300) {
         setDisplayElement(true);
       } else {
@@ -51,7 +52,7 @@ export default function Nav() {
             curr == "service" && "text-primary"
           } duration-200`}
         >
-          Service
+          Service 
         </Link>
         <Link
           href="/#portfolio"

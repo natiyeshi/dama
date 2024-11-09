@@ -33,7 +33,7 @@ export default function ProjectDetail({
         <div className="w-full overflow-auto max-w-[1500px] 2xl:mx-auto">
           <DrawerHeader>
             <DrawerTitle className="capitalize">{data.name}</DrawerTitle>
-            <DrawerDescription>Set your daily activity goal.</DrawerDescription>
+            <DrawerDescription>our client</DrawerDescription>
           </DrawerHeader>
           <div className="p-4 pb-0 flex  max-md:flex-col max-md:gap-10 w-full">
             <div className="flex flex-col w-1/3 max-md:w-full">

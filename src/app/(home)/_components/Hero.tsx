@@ -30,9 +30,9 @@ export default function Hero() {
       </div>
       <div className="from-top-slide font-black text-[55px] max-lg:text-[50px] max-md:text-[40px]  w-2/3 max-lg:w-[80%] max-md:w-full  leading-[3.5rem] max-md:leading-[1em]  mt-6">
         Transform Your <span className="text-primary"> Digital Presence</span>{" "}
-        with Dama Solutions
+        with Us
       </div>
-      <div className="from-top-slide text-lg text-dim mt-6 w-2/3 max-lg:w-[80%] max-md:w-full">
+      <div className="from-top-slide text-lg text-dim mt-6 w-3/5 max-lg:w-[80%] max-md:w-full">
         Elevating <span className="text-primary font-bold"> businesses</span>{" "}
         through innovation, strategy, and creativity. With over{" "}
         <span className="text-primary font-bold text-xl">

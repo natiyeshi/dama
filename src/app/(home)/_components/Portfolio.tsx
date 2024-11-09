@@ -60,7 +60,7 @@ const Portfolio = () => {
             key={ind}
             variant={"ghost"}
             onClick={() => setFilter(data.value)}
-            className={`duration-200 hover:bg-secondary hover:text-primary  cursor-pointer w-fit  ${
+            className={`duration-200 hover:bg-transparent hover:text-primary  cursor-pointer w-fit  ${
               curr == data.value &&
               "font-semibold text-primary underline capitalize"
             }`}
