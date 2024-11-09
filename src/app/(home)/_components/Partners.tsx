@@ -6,7 +6,7 @@ import midstone from "@/../assets/home/partners/midstone.png";
 import nuna from "@/../assets/home/partners/nuna.png";
 import rg from "@/../assets/home/partners/rg.png";
 import onektn from "@/../assets/home/partners/onektn.png";
-
+import anbesa from "@/../assets/home/partners/anbesa.png";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 
@@ -18,7 +18,7 @@ const Partners = () => {
     }),
   ]);
 
-  const partners = [lina, lelacon, midstone, nuna, rg, onektn];
+  const partners = [lina, lelacon, midstone, anbesa, nuna, rg, onektn];
 
   return (
     <div id="partners" className="mt-32 ">

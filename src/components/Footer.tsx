@@ -1,6 +1,6 @@
 import logo from "@/../assets/logo/logo-1.svg";
 import Image from "next/image";
-import { FaFacebookF, FaInstagram, FaTiktok, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
         >
           <FaFacebookF className="text-2xl hover:text-primary duration-100" />
         </a>
-        <FaTiktok className="text-2xl hover:text-primary duration-100" />
+        {/* <FaTiktok className="text-2xl hover:text-primary duration-100" /> */}
         <a
           rel="noopener noreferrer"
           href="https://www.linkedin.com/company/damasolutions/posts"

@@ -45,11 +45,11 @@ const Full_Website = [
   "Hosting",
   "Admin Dashboard",
 ];
-const semi_Website = [
-  "Website Design",
-  "Search Engine Optimization",
-  "Hosting",
-];
+// const semi_Website = [
+//   "Website Design",
+//   "Search Engine Optimization",
+//   "Hosting",
+// ];
 const simple_website = ["Website Design"];
 const brandings = [
   "Logo Design",
