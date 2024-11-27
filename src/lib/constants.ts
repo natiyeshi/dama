@@ -72,7 +72,7 @@ export const initialData: IPortfolio[] = [
 
   {
     name: "Rg Business",
-    link: "rg-business.vercel.app",
+    link: "https://rgbusinessgroups.com/",
     services: Full_Website,
     type: ["website"],
     images: [rg1, rg2, rg3],

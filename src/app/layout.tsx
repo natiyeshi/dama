@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description:
     "Dama Solutions offers expert web development, SEO, ERP solutions, branding, and social media marketing to help businesses grow their digital presence.",
   keywords:
-    "web development, SEO, ERP solutions, branding, social media marketing, business growth, Dama Solutions",
+    "website development, website SEO, website development in ethiopia, ERP system in ethiopia, ERP solutions, branding, social media marketing, Dama Solutions, dama, dama solution, dama website, website ethiopia, erp ethiopia, seo in ethiopia",
   openGraph: {
-    title: "Dama Solutions | Web Development, SEO, Branding & ERP Services",
+    title: "Dama Solutions | Website Development, SEO, Branding & ERP Services",
     description:
       "Dama Solutions offers expert web development, SEO, ERP solutions, branding, and social media marketing to help businesses grow their digital presence.",
-    url: "https://www.damasolutions.vercel.app",
+    url: "https://damasolutions.org",
     siteName: "Dama Solutions",
     images: [
       {
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dama Solutions | Web Development, SEO, Branding & ERP Services",
+    title: "Dama Solutions | Website Development, Branding & ERP Services",
     description:
       "Dama Solutions offers expert web development, SEO, ERP solutions, branding, and social media marketing to help businesses grow their digital presence.",
-    images: ["https://www.damasolutions.vercel.app/images/twitter-image.jpg"],
+    images: ["https://damasolutions.org/images/twitter-image.jpg"],
     creator: "@damasolutions", // Replace with your actual Twitter handle
   },
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.damasolutions.vercel.app",
+    canonical: "https://damasolutions.org",
   },
   icons: {
     icon: "/favicon.ico", // Update with the correct favicon path
@@ -47,15 +47,9 @@ export const metadata: Metadata = {
 
   other: {
     "application/ld+json": JSON.stringify({
-      // "@context": "https://schema.org",
       "@type": "Organization",
       name: "Dama Solutions",
-      url: "https://www.damasolutions.vercel.app",
-      // logo: "https://www.damasolutions.vercel.app/images/logo.png",
-      // sameAs: [
-      //   "https://www.linkedin.vercel.app/company/damasolutions",
-      //   "https://twitter.vercel.app/damasolutions",
-      // ],
+      url: "https://damasolutions.org",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+251-905-398-793", // Replace with your actual phone number

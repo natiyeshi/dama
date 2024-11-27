@@ -8,6 +8,6 @@ export default function robots() : MetadataRoute.Robots {
                 allow : "/",
             }
         ],
-        sitemap : "https://damasolutions.vercel.app/sitemap.xml"
+        sitemap : "https://damasolutions.org/sitemap.xml"
     }
 }
